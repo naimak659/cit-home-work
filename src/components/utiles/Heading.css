@@ -1,0 +1,17 @@
+.heading-part {
+  margin: 0 auto;
+  text-align: center;
+  padding: 2rem;
+  max-width: 590px;
+}
+
+.heading-partr h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.heading-part p {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  color: #666;
+}
