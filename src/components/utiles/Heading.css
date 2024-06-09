@@ -1,16 +1,32 @@
 .heading-part {
   margin: 0 auto;
   text-align: center;
-  padding: 2rem;
   max-width: 590px;
+  padding: 142px 0 50px;
 }
 
-.heading-partr h2 {
+.heading-part h2 {
   font-size: 2rem;
   margin-bottom: 0.5rem;
 }
 
 .heading-part p {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  color: #666;
+}
+
+.headingAlign-right {
+  max-width: 590px;
+  margin: 142px 0 50px;
+}
+
+.headingAlign-right h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.headingAlign-right p {
   font-size: 1rem;
   margin-bottom: 2rem;
   color: #666;

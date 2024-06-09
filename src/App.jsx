@@ -5,6 +5,9 @@ import Banner from "./components/Banner";
 import Services from "./components/Services";
 import Portfolio from "./components/portfolio/Portfolio";
 import Team from "./components/teamMember/Team";
+import Exprience from "./components/CustomerExprience/Exprience";
+import BlogCard from "./components/BlogPost/Blog";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -14,6 +17,9 @@ function App() {
       <Services />
       <Portfolio />
       <Team />
+      <Exprience />
+      <BlogCard />
+      <Footer />
     </>
   );
 }

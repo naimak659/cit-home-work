@@ -5,6 +5,7 @@ import svg3 from "/src/assets/SVG/minus path.svg";
 import svg4 from "/src/assets/SVG/object group.svg";
 import svg5 from "/src/assets/SVG/object ungroup.svg";
 import svg6 from "/src/assets/SVG/transform tool.svg";
+
 // portfolio images import
 import PortfolioImg1 from "../assets/Portfolio-images/Rectangle 12.png";
 import PortfolioImg2 from "../assets/Portfolio-images/Rectangle 13.png";
@@ -14,12 +15,21 @@ import PortfolioImg5 from "../assets/Portfolio-images/Rectangle 16.png";
 import PortfolioImg6 from "../assets/Portfolio-images/Rectangle 17.png";
 import PortfolioImg7 from "../assets/Portfolio-images/Rectangle 18.png";
 import PortfolioImg8 from "../assets/Portfolio-images/Rectangle 19.png";
-// team img
 
+// team img
 import teamimg1 from "../assets/Team-img/Rectangle 20 (1).png";
 import teamimg2 from "../assets/Team-img/Rectangle 20 (2).png";
 import teamimg3 from "../assets/Team-img/Rectangle 20.png";
+
 // src/assets/Team-img/Rectangle 20 (2).png
+
+// testimonial img
+import testimonialProfileImg from "../assets/Exprience/profile.png";
+import testimonialStarImg from "../assets/Exprience/stars.png";
+import testimonialCommaImg from "../assets/Exprience/testimonial.png";
+
+// blog images
+import Blog1 from "../assets/Blog/blog1.png";
 
 // logo img
 import logo from "../assets/Logo (2).png";
@@ -147,4 +157,82 @@ const teamMembers = [
   },
 ];
 
-export { bannerImg, services, logo, portfolioItems, teamMembers };
+// customer exprince data
+
+const testimonials = [
+  {
+    id: 1,
+    image: testimonialProfileImg,
+    star: testimonialStarImg,
+    comma: testimonialCommaImg,
+    name: "Mahid Ahmed",
+    position: "UX Designer",
+    text: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.",
+  },
+  {
+    id: 3,
+    image: testimonialProfileImg,
+    star: testimonialStarImg,
+    comma: testimonialCommaImg,
+    name: "Mahid Ahmed",
+    position: "UX Designer",
+    text: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.",
+  },
+  {
+    id: 2,
+    image: testimonialProfileImg,
+    star: testimonialStarImg,
+    comma: testimonialCommaImg,
+    name: "Mahid Ahmed",
+    position: "UX Designer",
+    text: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.",
+  },
+];
+
+const blogPosts = [
+  {
+    id: 1,
+    image: Blog1,
+    author: "Admin",
+    date: "07/11/2021",
+    title: "Business Plans That Fit Your Best Blog",
+    description:
+      "There are many variations of passages of Lorem Ipsum, but the majority have suffered alteration in some form.",
+    link: "#",
+  },
+  {
+    id: 2,
+    image: Blog1,
+    author: "Admin",
+    date: "07/11/2021",
+    title: "Business Plans That Fit Your Best Blog",
+    description:
+      "There are many variations of passages of Lorem Ipsum, but the majority have suffered alteration in some form.",
+    link: "#",
+  },
+  {
+    id: 3,
+    image: Blog1,
+    author: "Admin",
+    date: "07/11/2021",
+    title: "Business Plans That Fit Your Best Blog",
+    description:
+      "There are many variations of passages of Lorem Ipsum, but the majority have suffered alteration in some form.",
+    link: "Learn More",
+  },
+];
+
+// footer items
+
+const FooterContent = ["About us", "Work", "Latest News", "Careers"];
+
+export {
+  bannerImg,
+  services,
+  logo,
+  portfolioItems,
+  teamMembers,
+  testimonials,
+  blogPosts,
+  FooterContent,
+};

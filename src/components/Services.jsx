@@ -1,5 +1,6 @@
 import React from "react";
 import { services } from "../constant/constant";
+import Heading from "./utiles/Heading";
 
 function Services() {
   return (
@@ -7,13 +8,13 @@ function Services() {
       <div id="services">
         <div className="container">
           <div className="service">
-            <div className="top">
-              <h2 className="service__titile">Our Services</h2>
-              <p className="service__detail">
-                There are many variations of passages of Lorem Ipsum available,
-                but the majority have suffered alteration in some form.
-              </p>
-            </div>
+            <Heading
+              title={"Our Services"}
+              details={
+                "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form."
+              }
+              css={"heading-part"}
+            />
             <div className="service__bottom">
               {services.map((item, i) => {
                 return (
